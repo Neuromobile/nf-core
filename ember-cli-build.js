@@ -5,7 +5,7 @@ const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 module.exports = function(defaults) {
   let app = new EmberAddon(defaults, {
     sassOptions: {
-      includePaths: ['bower_components/materialize/sass'],
+      includePaths: ['node_modules/materialize-css/sass'],
     },
   });
   /*
