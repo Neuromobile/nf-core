@@ -1,1 +1,28 @@
 @import "materialize";
+
+// overrides to fix inheritance of styles
+
+header {
+  input {
+    padding-left: 25px;
+    padding-top: 6px;
+  }
+}
+
+.AddonDocs-DocsViewer-Nav nav,
+.AddonDocs-DocsViewer-CurrentPageIndex {
+  background: none;
+  color: inherit;
+
+  li {
+    float: none;
+    line-height: 1.625;
+    height: inherit;
+  }
+
+  a {
+    &:hover {
+      background: none;
+    }
+  }
+}
