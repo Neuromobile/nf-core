@@ -1,1 +1,31 @@
 @import "materialize";
+
+// overrides to fix inheritance of styles
+
+header {
+  input {
+    // this must be improved
+    // use of "!important" is NEVER recommended, it can break another stuff
+    padding-left: 25px !important;
+    padding-top: 6px !important;
+  }
+}
+
+.AddonDocs-DocsViewer-Nav nav,
+.AddonDocs-DocsViewer-CurrentPageIndex {
+  background: none;
+  color: inherit;
+  height: auto;
+
+  li {
+    float: none;
+    line-height: 1.625;
+    height: inherit;
+  }
+
+  a {
+    &:hover {
+      background: none;
+    }
+  }
+}
