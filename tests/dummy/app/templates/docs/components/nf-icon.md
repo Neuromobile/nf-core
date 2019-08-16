@@ -2,7 +2,7 @@
 
 {{#docs-demo as |demo|}}
   {{#demo.example name="nf-icon.hbs"}}
-    <NfIcon @icon="user"/>
+    <NfIcon @icon="person"/>
   {{/demo.example}}
 
   {{demo.snippet "nf-icon.hbs"}}
