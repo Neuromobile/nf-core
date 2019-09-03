@@ -1,0 +1,11 @@
+{{ember-tooltip
+  text=text
+  side=(unless position "right" position)
+}}
+
+{{nf-icon
+  class=(concat size " nf-tooltip__icon")
+  icon=(unless icon "info" icon)
+}}
+
+{{yield}}
