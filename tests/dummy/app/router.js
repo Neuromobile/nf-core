@@ -11,6 +11,7 @@ Router.map(function () {
   docsRoute(this, function () {
     this.route('components', function () {
       this.route('nf-icon');
+      this.route('nf-tooltip');
     });
   });
 });
