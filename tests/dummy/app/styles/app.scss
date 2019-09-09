@@ -1,4 +1,4 @@
-@import "materialize";
+@import "nf-core";
 
 // overrides to fix inheritance of styles
 
@@ -27,5 +27,37 @@ header {
     &:hover {
       background: none;
     }
+  }
+}
+.docs-h2 {
+  font-size: 1.6rem; // 24px
+  font-weight: bold;
+}
+
+.docs-h3 {
+  font-size: 1.25rem; //  18.72px
+  strong {
+    font-weight: bolder;
+  }
+}
+
+.docs-text-base {
+  font-size: 1rem;  // 16px
+}
+
+.docs-md {
+  &__h1 {
+    font-size: 2.46rem; //36px
+  }
+  &__h2 {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  a {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  p {
+
   }
 }
