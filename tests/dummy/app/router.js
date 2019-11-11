@@ -10,6 +10,7 @@ const Router = AddonDocsRouter.extend({
 Router.map(function () {
   docsRoute(this, function () {
     this.route('components', function () {
+      this.route('nf-add');
       this.route('nf-icon');
       this.route('nf-tooltip');
     });
